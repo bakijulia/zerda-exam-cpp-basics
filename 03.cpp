@@ -11,11 +11,9 @@
 using namespace std;
 
 void float_operators(float total, float* pointer) {
-  float result;
-  result = *pointer * total;
-  cout << result << endl;
-  cout << pointer << endl;
-  *pointer = total * 5;
+  *pointer *= total;
+  cout << *pointer << endl;
+  *pointer *= 5;
   cout << *pointer << endl;
 }
 
