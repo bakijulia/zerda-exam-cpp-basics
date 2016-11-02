@@ -20,7 +20,6 @@ bool decide_equal_or_bigger(int* array, int length) {
     }
   }
   return result;
-
 }
 
 /**
